@@ -22,4 +22,4 @@ person_3 = {
 
 
     my_group = Array ["person_1", "person_2", "person_3"]
-puts my_group [0]
+
