@@ -23,3 +23,6 @@ person_3 = {
 
     my_group = Array ["person_1", "person_2", "person_3"]
 
+    my_group.each do |name|
+        puts "Hello #{name}"
+    end
