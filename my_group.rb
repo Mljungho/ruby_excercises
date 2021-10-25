@@ -1,28 +1,10 @@
 
-person_1 = {
-    "name"  => "David",
-    "sex"   => "Male",
-    "age"   => "21",
+   my_group = Array ["David", "Elizabeth", "Bacon"]
 
-}
+person_1 = {name: "David", sex: "Man", age: 21}
 
-person_2 = {
-    "name"  => "Elizabeth",
-    "sex"   => "Female",
-    "age"   => "35",
+person_2 = {name: "Elizabeth", sex: "Woman", age: 35}
 
-}
+person_3 = {name: "Paul", sex: "Man", age: 44}
 
-person_3 = {
-    "name"  => "Paul",
-    "sex"   => "Male",
-    "age"   => "44",
-
-}
-
-
-    my_group = Array ["person_1", "person_2", "person_3"]
-
-    my_group.each do |name|
-        puts "Hello #{name}"
-    end
+puts "my name is #{person_1[:name]} and I am #{person_1[:age]} old. #{person_2[:name]} is #{person_2[:age]}"
